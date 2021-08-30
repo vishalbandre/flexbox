@@ -1,0 +1,26 @@
+main.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 2em;
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        .card {
+            padding: 10px;
+            img {
+                width: 100%;
+            }
+            .card-content {
+                .card-title {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    font-family: $font-bold;
+                }
+            }
+            .read-more {
+                text-transform: uppercase;
+                border-bottom: solid 2px $secondary-color;
+            }
+        }
+    }
+}

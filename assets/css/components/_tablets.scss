@@ -1,0 +1,11 @@
+/* Small Devices, Tablets */
+
+@media (max-width: 768px) and (min-width: 576px) {
+    .cards {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .card {
+            flex: 40%;
+        }
+    }
+}

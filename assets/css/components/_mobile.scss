@@ -1,0 +1,12 @@
+/* Extra Small Devices, Phones */
+
+@media (max-width: 576px) {
+    .container {
+        margin: 0;
+        padding: 0;
+    }
+    .cards {
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
